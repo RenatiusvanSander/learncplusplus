@@ -77,27 +77,27 @@ include CMakeFiles/learncplusplus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/learncplusplus.dir/flags.make
 
-CMakeFiles/learncplusplus.dir/main.cpp.o: CMakeFiles/learncplusplus.dir/flags.make
-CMakeFiles/learncplusplus.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rmeier/CLionProjects/learncplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learncplusplus.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learncplusplus.dir/main.cpp.o -c /home/rmeier/CLionProjects/learncplusplus/main.cpp
+CMakeFiles/learncplusplus.dir/chapter01/main.cpp.o: CMakeFiles/learncplusplus.dir/flags.make
+CMakeFiles/learncplusplus.dir/chapter01/main.cpp.o: ../chapter01/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rmeier/CLionProjects/learncplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learncplusplus.dir/chapter01/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learncplusplus.dir/chapter01/main.cpp.o -c /home/rmeier/CLionProjects/learncplusplus/chapter01/main.cpp
 
-CMakeFiles/learncplusplus.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learncplusplus.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rmeier/CLionProjects/learncplusplus/main.cpp > CMakeFiles/learncplusplus.dir/main.cpp.i
+CMakeFiles/learncplusplus.dir/chapter01/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learncplusplus.dir/chapter01/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rmeier/CLionProjects/learncplusplus/chapter01/main.cpp > CMakeFiles/learncplusplus.dir/chapter01/main.cpp.i
 
-CMakeFiles/learncplusplus.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learncplusplus.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rmeier/CLionProjects/learncplusplus/main.cpp -o CMakeFiles/learncplusplus.dir/main.cpp.s
+CMakeFiles/learncplusplus.dir/chapter01/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learncplusplus.dir/chapter01/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rmeier/CLionProjects/learncplusplus/chapter01/main.cpp -o CMakeFiles/learncplusplus.dir/chapter01/main.cpp.s
 
 # Object files for target learncplusplus
 learncplusplus_OBJECTS = \
-"CMakeFiles/learncplusplus.dir/main.cpp.o"
+"CMakeFiles/learncplusplus.dir/chapter01/main.cpp.o"
 
 # External object files for target learncplusplus
 learncplusplus_EXTERNAL_OBJECTS =
 
-learncplusplus: CMakeFiles/learncplusplus.dir/main.cpp.o
+learncplusplus: CMakeFiles/learncplusplus.dir/chapter01/main.cpp.o
 learncplusplus: CMakeFiles/learncplusplus.dir/build.make
 learncplusplus: CMakeFiles/learncplusplus.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rmeier/CLionProjects/learncplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable learncplusplus"

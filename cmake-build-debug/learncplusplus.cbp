@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/rmeier/CLionProjects/learncplusplus/main.cpp">
+		<Unit filename="/home/rmeier/CLionProjects/learncplusplus/chapter01/main.cpp">
 			<Option target="learncplusplus"/>
 		</Unit>
 		<Unit filename="/home/rmeier/CLionProjects/learncplusplus/CMakeLists.txt">

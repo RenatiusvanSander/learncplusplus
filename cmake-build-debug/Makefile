@@ -143,32 +143,32 @@ learncplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learncplusplus.dir/build.make CMakeFiles/learncplusplus.dir/build
 .PHONY : learncplusplus/fast
 
-main.o: main.cpp.o
+chapter01/main.o: chapter01/main.cpp.o
 
-.PHONY : main.o
+.PHONY : chapter01/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/learncplusplus.dir/build.make CMakeFiles/learncplusplus.dir/main.cpp.o
-.PHONY : main.cpp.o
+chapter01/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learncplusplus.dir/build.make CMakeFiles/learncplusplus.dir/chapter01/main.cpp.o
+.PHONY : chapter01/main.cpp.o
 
-main.i: main.cpp.i
+chapter01/main.i: chapter01/main.cpp.i
 
-.PHONY : main.i
+.PHONY : chapter01/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/learncplusplus.dir/build.make CMakeFiles/learncplusplus.dir/main.cpp.i
-.PHONY : main.cpp.i
+chapter01/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learncplusplus.dir/build.make CMakeFiles/learncplusplus.dir/chapter01/main.cpp.i
+.PHONY : chapter01/main.cpp.i
 
-main.s: main.cpp.s
+chapter01/main.s: chapter01/main.cpp.s
 
-.PHONY : main.s
+.PHONY : chapter01/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/learncplusplus.dir/build.make CMakeFiles/learncplusplus.dir/main.cpp.s
-.PHONY : main.cpp.s
+chapter01/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learncplusplus.dir/build.make CMakeFiles/learncplusplus.dir/chapter01/main.cpp.s
+.PHONY : chapter01/main.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... learncplusplus"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... chapter01/main.o"
+	@echo "... chapter01/main.i"
+	@echo "... chapter01/main.s"
 .PHONY : help
 
 
