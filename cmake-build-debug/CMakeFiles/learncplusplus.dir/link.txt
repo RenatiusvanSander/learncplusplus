@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/learncplusplus.dir/main.cpp.o  -o learncplusplus 
